@@ -1,1 +1,2 @@
-# artplus-fontai-browscap-bundle
+BrowscapBundle
+==============

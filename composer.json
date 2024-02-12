@@ -1,0 +1,22 @@
+{
+    "name": "artplus_f/browscap-bundle",
+    "type": "symfony-bundle",
+    "description": "Fontai BrowscapBundle",
+    "authors": [
+        {
+            "name": "Lumír Toman",
+            "email": "toman@websource.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "crossjoin/browscap": "dev-master#8ab5ed67aa"
+    },
+    "autoload": {
+        "psr-4": { "Fontai\\Bundle\\BrowscapBundle\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}

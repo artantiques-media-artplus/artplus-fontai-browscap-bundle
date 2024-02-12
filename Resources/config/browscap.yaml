@@ -1,0 +1,16 @@
+services:
+    _defaults:
+        public: false  
+
+    browscap:
+        class: Fontai\Bundle\BrowscapBundle\Service\Browscap
+        public: true
+        arguments:
+            - '%kernel.cache_dir%'
+
+    browscap.command.update:
+        class: Fontai\Bundle\BrowscapBundle\Command\UpdateCommand
+        tags:
+            - { name: console.command, command: browscap:update }
+        arguments:
+            - '@browscap'
