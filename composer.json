@@ -1,5 +1,5 @@
 {
-    "name": "artplus_f/browscap-bundle",
+    "name": "fontai/browscap-bundle",
     "type": "symfony-bundle",
     "description": "Fontai BrowscapBundle",
     "authors": [
