@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "crossjoin/browscap": "dev-master#8ab5ed67aa"
+        "crossjoin/browscap": "dev-main"
     },
     "autoload": {
         "psr-4": { "Fontai\\Bundle\\BrowscapBundle\\": "" },
